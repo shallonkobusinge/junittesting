@@ -1,4 +1,5 @@
 package com.example.classbjunt.services;
 
-public class CalculatorService {
+public interface CalculatorService {
+    int[] getAll();
 }
